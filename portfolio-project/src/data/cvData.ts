@@ -92,6 +92,12 @@ export const cvData: CVData = {
           "approach to prediction.",
       tags: ["Python", "SAS", "SAS Viya"],
       link: "https://dam-cdn.sas.orangelogic.com/AssetLink/h248733ri1bv1c0na726k8mh5r165mw4/team-data-aces-curiosity-cup-2025.pdf",
+    },
+    {
+      title: "Jose Rizal Archives - A Roadmap",
+      description: "An interactive website that guides users through the life of the Philippine National Hero, his achievements, detours, up until his sacrifice for his motherland.",
+      tags: ["Javascript", "React"],
+      link: "https://nicozalcaraz.github.io/rizal-roadmap/",
     }
   ],
   experience: [
