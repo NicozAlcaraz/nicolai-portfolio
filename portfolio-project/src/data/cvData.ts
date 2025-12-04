@@ -45,6 +45,12 @@ export interface CVData {
     event: string;
     year: string;
   }[];
+  activities: {
+    name: string;
+    host: string;
+    period: string;
+    points: string[];
+  }[];
 }
 
 
@@ -146,5 +152,48 @@ export const cvData: CVData = {
         event: "Data Preparation",
         year: "2025"
      }
-  ]
+  ],
+  activities: [
+    {
+      name: "SAS: The Curiosity Cup",
+      host: "SAS",
+      period: "2025",
+      points: [
+        "Among 112 teams worldwide, won the Data Preparation Category.",
+        "Built and evaluated predictive models for early Alzheimer’s detection using SAS Viya Workbench and\n" +
+        "Gradient Boosting classifiers.",
+        "Conducted exploratory analysis, feature correlation studies, and importance ranking to identify key\n" +
+        "clinical predictors."
+      ],
+    },
+    {
+      name: "Breaking Enigma: National Hackathon",
+      host: "DTI | NDC",
+      period: "2025",
+      points: [
+        "Co-created and pitched a Filipino comics platform for creators to publish and share their work.",
+        "Lead user and industry research to define core creator and reader needs.",
+        "Designed the platform’s UI/UX."
+      ],
+    },
+    {
+      name: "BPI DataWave",
+      host: "BPI",
+      period: "2025",
+      points: [
+        "Built PersonaForge, an AI-assisted customer persona generator for MSMEs.",
+        "Developed the prototype using React and Django REST, ensuring future ML integration."
+      ],
+    },
+    {
+      name: "TechSauce: A Payroll and Attendance System",
+      host: "University of Santo Tomas – Software Engineering",
+      period: "2024-2025",
+      points: [
+        "Lead a team of developers to create a payroll and attendance system for a restaurant in\n" +
+        "Marikina City.",
+        "Successfully developed the system and deployed through cloud."
+      ],
+    },
+  ],
 };

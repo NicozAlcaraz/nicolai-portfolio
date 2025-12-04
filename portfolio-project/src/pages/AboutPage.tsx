@@ -3,7 +3,8 @@ import {
     Briefcase,
     GraduationCap,
     Award,
-    CheckCircle
+    CheckCircle,
+    ClipboardPen
 } from 'lucide-react';
 import { cvData } from '../data/cvData';
 import { Section } from '../components/Section';
@@ -69,6 +70,19 @@ export const AboutPage: React.FC = () => {
               <p className="text-sm text-zinc-400">{cert.year}</p>
             </div>
          ))}
+      </Section>
+        <Section title="Activities" icon={<ClipboardPen />}>
+        {cvData.activities.map((exp, index) => (
+            <div key={index} className="mb-6 relative">
+              <span className="absolute -left-12 top-1 h-3 w-3 bg-violet-400 rounded-full"></span>
+              <h3 className="text-xl font-bold text-zinc-100">{exp.name}</h3>
+              <p className="text-lg text-zinc-300">{exp.host}</p>
+              <p className="text-sm text-zinc-400 mb-2">{exp.period}</p>
+              <ul className="list-disc pl-5 text-zinc-300">
+                {exp.points.map((pt, i) => <li key={i}>{pt}</li>)}
+              </ul>
+            </div>
+        ))}
       </Section>
     </div>
   );
