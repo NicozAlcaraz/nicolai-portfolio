@@ -108,6 +108,12 @@ export const cvData: CVData = {
   ],
   experience: [
     {
+      role: "Wholesale Data Analyst - Intern",
+      company: "Adidas",
+      period: "2026 - Present",
+      points: ["Handles the data analysis of wholesale data."]
+    },
+    {
       role: "Back-end Developer - Intern",
       company: "Legion Technologies, Inc",
       period: "2023 - 2024",
@@ -135,6 +141,11 @@ export const cvData: CVData = {
     },
   ],
   certifications: [
+    {
+      name: "Explore Emerging Technologies",
+      issuer: "IBM",
+      year: "2026",
+    },
     {
       name: "Databases and SQL for Data Science with Python",
       issuer: "IBM",
