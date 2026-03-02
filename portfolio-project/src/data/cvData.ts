@@ -66,8 +66,8 @@ export const cvData: CVData = {
   },
   skills: [
     { category: "Languages", list: ["Python", "Java", "JavaScript", "TypeScript", "C#"] },
-    { category: "Frameworks & Tools", list: ["Django", "React.js/ts", "Flutter", "Docker", "Celery"] },
-    { category: "Data & Databases", list: ["SQL", "Data Analysis", "Machine Learning"] }
+    { category: "Frameworks & Tools", list: ["Django", "React.js/ts", "Flutter", "Docker", "Celery", "Convex"] },
+    { category: "Data & Databases", list: ["SQL", "Tableau", "Excel", "Power-BI", "Data Analysis", "Machine Learning"] }
   ],
   projects: [
     {
