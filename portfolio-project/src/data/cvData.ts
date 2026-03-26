@@ -83,6 +83,12 @@ export const cvData: CVData = {
       link: "https://github.com/cyrus-bcc/Software_Engineering",
     },
     {
+      title: "Internship DTR",
+      description: "A Frontend-Only Internship-DTR Tracker (Currently stores my personal DTR)",
+      tags: ["React.js", "Convex", "Vercel"],
+      link: "https:/https://dtr-tracker-eight.vercel.app",
+    },
+    {
       title: "NBA Box Scores Dashboard",
       description: "Streamlit app that fetches NBA box scores and visualizes live & historical stats.",
       tags: ["Python", "Streamlit"],
