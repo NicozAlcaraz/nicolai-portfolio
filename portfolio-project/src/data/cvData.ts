@@ -86,7 +86,7 @@ export const cvData: CVData = {
       title: "Internship DTR",
       description: "A Frontend-Only Internship-DTR Tracker (Currently stores my personal DTR)",
       tags: ["React.js", "Convex", "Vercel"],
-      link: "https:/https://dtr-tracker-eight.vercel.app",
+      link: "https://dtr-tracker-eight.vercel.app",
     },
     {
       title: "NBA Box Scores Dashboard",
